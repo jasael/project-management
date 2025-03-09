@@ -1,0 +1,13 @@
+{
+    "name": "NestJS Server",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "server",
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "none",
+    "forwardPorts": [
+        3000
+    ],
+    "containerEnv": {
+        "PORT": "3000"
+    }
+}
